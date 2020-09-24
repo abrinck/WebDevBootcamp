@@ -1,0 +1,29 @@
+body {
+	background: #189ab4;
+}
+
+#mainNavbar {
+	color: #75e6da;
+	background: #05445e;
+	border-bottom: 1px solid #d4f1f4;
+}
+
+#mainNavbar .nav-link {
+	color: #75e6da;
+}
+
+#mainNavbar .navbar-toggle-chevron {
+	color: #75e6da;
+}
+
+.rotate {
+	-moz-transition: all 0.5s linear;
+	-webkit-transition: all 0.5s linear;
+	transition: all 0.5s linear;
+}
+
+.rotate.down {
+	-moz-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
